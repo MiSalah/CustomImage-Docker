@@ -1,7 +1,7 @@
 # Specify a base image
 FROM node:alpine
 
-# here where the applications files will be moved into in the image that we will build. 
+# here where the application files will be moved into the image that we will build. 
 WORKDIR /usr/app
 
 # Install some dependencies
